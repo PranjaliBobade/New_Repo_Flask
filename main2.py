@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 
 from typing import List, Optional, Union
 app=Flask(__name__)
-path=r'C:\Users\JoshiP02\Desktop\Flask-Web-Framework-main\Tutorial 7 opencv\trail_video.avi'
+path=r'.\trail_video.avi'
 camera = cv2.VideoCapture(path)
 
 
-weights=r'C:\Users\JoshiP02\Desktop\Flask-Web-Framework-main\Tutorial 7 opencv\best.pt'
+weights=r'.\best.pt'
 
 class YOLO:
     def __init__(self, weights, device: Optional[str] = None):
