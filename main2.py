@@ -1,10 +1,10 @@
-import torch
-from flask import Flask, render_template, Response
-import cv2
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
+import torch
+from flask import Flask, render_template, Response
+import cv2
 
 from typing import List, Optional, Union
 app=Flask(__name__)
